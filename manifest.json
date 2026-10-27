@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Uni VTT Downloader",
+  "version": "1.3.0",
+  "description": "Rileva e scarica i sottotitoli VTT delle videolezioni.",
+  "permissions": ["webRequest", "downloads", "storage", "tabs"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Trascrizioni VTT"
+  }
+}
